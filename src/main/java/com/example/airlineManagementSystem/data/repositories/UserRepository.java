@@ -5,5 +5,8 @@ import com.example.airlineManagementSystem.data.models.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UserRepository extends JpaRepository<User,Long> {
-    User findByEmailAddress(String emailAddress);
+
+//    boolean exstsByEmailAddress(String emailAddress);
+
+    User findByEmail(String emailAddress);
 }

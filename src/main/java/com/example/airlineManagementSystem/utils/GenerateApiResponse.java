@@ -13,7 +13,6 @@ public class GenerateApiResponse {
             .httpStatus(HttpStatus.CREATED)
             .statusCode(HttpStatus.CREATED.value())
             .isSuccessful(true)
-
             .build();
 
 
